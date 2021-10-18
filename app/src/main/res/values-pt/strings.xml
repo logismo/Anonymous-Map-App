@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TASE</string>
+    <string name="about">Sobre</string>
+    <string name="abouttext">Copyright (C) 2017 Licensed under <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU AGPLv3</a></string>
+    <string name="accident">Acidente</string>
+    <string name="add">Adicionar</string>
+    <string name="add_alert">Adicionar Alerta</string>
+    <string name="alert_limit">Limite de alertas atingido</string>
+    <string name="camera">Radar</string>
+    <string name="description">Descrição</string>
+    <string name="crime">Crime</string>
+    <string name="no">Não</string>
+    <string name="police">Polícia</string>
+    <string name="prefs_reset_all">Reset All</string>
+    <string name="registering_tor">Registrando Tor Hidden Service</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="yes">Sim</string>
+    <string name="delete">Deletar</string>
+    <string name="press_hold">Pressione e segure para adicionar alerta</string>
+</resources>

@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#006895</color>
-    <color name="colorPrimaryDark">#00597f</color>
-    <color name="colorAccent">#0275a7</color>
-    <color name="black">#ffffff</color>
-    <color name="foreground_material_light">#000000</color>
+
+    <!--
+    <color name="colorPrimary">#005f66</color>
+    <color name="colorPrimaryDark">#045157</color>
+    <color name="colorAccent">#016b73</color>
+    <color name="colorNotification">#5C878A</color>
+    -->
+
+    <!--
+    <color name="colorPrimary">#a62c27</color>
+    <color name="colorPrimaryDark">#922520</color>
+    <color name="colorAccent">#c0352f</color>
+    <color name="colorNotification">#5C878A</color>
+    -->
+
+    <!--
+    <color name="colorPrimary">#005f66</color>
+    <color name="colorPrimaryDark">#045157</color>
+    <color name="colorAccent">#016b73</color>
+    <color name="colorNotification">#5C878A</color>
+    -->
+
+    <!--
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    -->
+
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#212121</color>
+
+    <color name="colorAccent">#016b73</color>
+    <color name="colorNotification">#5c878a</color>
 
 
-    <!--<color name="colorNotification">#5C878A</color>-->
-    <color name="colorNotification">#579dbc</color>
+    <color name="splashBackground">#212121</color>
+
 
 </resources>

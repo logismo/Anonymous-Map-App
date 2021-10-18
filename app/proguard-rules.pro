@@ -1,6 +1,6 @@
 # Add project specific ProGuard rules here.
 # By default, the flags in this file are appended to flags specified
-# in /home/user/adt-bundle-linux-x86_64-20140702/sdk/tools/proguard/proguard-android.txt
+# in /home/daew/Android/Sdk/tools/proguard/proguard-android.txt
 # You can edit the include path and order by changing the proguardFiles
 # directive in build.gradle.
 #
@@ -15,15 +15,3 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
-
-
-
--keep public class com.google.android.gms.**
--dontwarn com.google.android.gms.**
-
-
--keep public class com.android.**
--dontwarn com.android.**
-
--keep public class javax.**
--dontwarn javax.**

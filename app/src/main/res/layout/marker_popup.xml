@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="@string/add_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/marker_popup_title"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:id="@+id/typegroup">
+
+        <RadioButton
+            android:text="@string/police"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_police"
+            android:layout_weight="1"
+            android:checked="true"
+            android:button="@null"
+            android:drawableTop="@drawable/btn_cop"
+            android:gravity="center"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:text="@string/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_camera"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/btn_camera"
+            android:gravity="center"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:text="@string/crime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_crime"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/btn_crime"
+            android:gravity="center"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:text="Accident"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_accident"
+            android:layout_weight="1"
+            android:button="@null"
+
+            android:drawableTop="@drawable/btn_warning"
+            android:gravity="center"
+            android:textSize="12sp" />
+
+    </RadioGroup>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:maxLength="100"
+            android:imeOptions="flagNoExtractUi"
+            android:hint="@string/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/marker_description"
+            android:inputType="textCapSentences|textAutoCorrect|textAutoComplete|textShortMessage"
+            android:digits="abcdefghijklmnopqrstuvwxyzçáéíóúàèìòùäëïüöâêîôûãõABCDEFGHIJKLMNOPQRSTUVWXYZÇÁÉÍÓÚÀÈÌÒÙÄËÏÜÖÂÊÎÔÛÃÕ+-0123456789,.!?() " />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

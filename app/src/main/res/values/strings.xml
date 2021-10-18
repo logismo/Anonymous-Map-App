@@ -1,59 +1,30 @@
 <resources>
+    <string name="app_name">TASE</string>
 
-    <string name="app_name">ourbook</string>
+    <string name="abouttext">Copyright (C) 2017\nLicensed under <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU AGPLv3</a></string>
+    <string name="seed_node" translatable="false">ns6cgwkrvygikza7</string>
 
-    <string name="invitation_text">
-        %1$s\n
-        \n
-        Let\'s connect via %4$s, a fully decentralized peer-to-peer social network!\n
-        \n
-        contact: network.onion/%2$s/%3$s\n
-        (click after installation to connect)\n
-        \n
-        onion: http://%2$s.onion/network.onion\n
-        \n
-        clearnet: http://%2$s.onion.to/network.onion\n
-        \n
-        ID: %2$s\n
-        (copy manually if the links are not displayed correctly)\n
-    </string>
+    <string name="about">About</string>
+    <string name="add">Add</string>
+    <string name="description">Description</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="prefs_reset_all">Reset All</string>
 
-    <string-array name="acceptmessagesvalues">
-        <item></item>
-        <item>friends</item>
-        <item>none</item>
-    </string-array>
-
-    <string-array name="acceptmessageslabels">
-        <item>Everyone</item>
-        <item>Only Friends</item>
-        <item>None</item>
-    </string-array>
-
-    <string-array name="wallbotintervalvalues">
-        <item>10</item>
-        <item>20</item>
-        <item>30</item>
-        <item>60</item>
-        <item>120</item>
-        <item>300</item>
-        <item>600</item>
-        <item>1800</item>
-        <item>3600</item>
-        <item>7200</item>
-    </string-array>
-
-    <string-array name="wallbotintervallabels">
-        <item>10s</item>
-        <item>20s</item>
-        <item>30s</item>
-        <item>1min</item>
-        <item>2min</item>
-        <item>5min</item>
-        <item>10min</item>
-        <item>30min</item>
-        <item>1h</item>
-        <item>2h</item>
-    </string-array>
+    <plurals name="notification_new_messages">
+        <item quantity="one">%d new message</item>
+        <item quantity="other">%d new messages</item>
+    </plurals>
+    <string name="title_activity_maps">Map</string>
+    <string name="police">Police</string>
+    <string name="camera">Camera</string>
+    <string name="crime">Crime</string>
+    <string name="accident">Accident</string>
+    <string name="add_alert">Add Alert</string>
+    <string name="alert_limit">Alert limit reached</string>
+    <string name="registering_tor">Registering Tor Hidden Service</string>
+    <string name="delete">Delete</string>
+    <string name="press_hold">Press and hold to add alert</string>
 
 </resources>

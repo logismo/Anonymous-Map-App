@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="34dp">
+
+        <TextView
+            android:text="POLICE"
+            android:layout_width="153dp"
+            android:layout_height="match_parent"
+            android:id="@+id/marker_details_title"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="viewStart"
+            android:gravity="center_vertical" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.53">
+
+            <TextView
+                android:text="mogxkhhnfrugz5e6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/marker_details_author"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:textSize="12sp" />
+
+            <TextView
+                android:text="2016-30-09 02:35:20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/marker_details_time"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/marker_details_address"
+        android:textAlignment="center" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:text="Oh os coxa ae tio!! Cuidado blitz!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/marker_details_description"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+</LinearLayout>
