@@ -8,10 +8,10 @@ Initial messaging framework was forked from the [ourbook](https://github.com/oni
 
 ## Features
 
-* Native Android App
+* Native Android Java App
 * Google Maps API integration
 * User can share geolocation alerts with timestamp and street address
-* TOR binary built from source with updated OpenSSL
+* Included TOR binary built from source with updated OpenSSL
 * Peer-to-peer mesh network, allowing for functionality independent of dedicated server
 * SQLite for local storage
 
